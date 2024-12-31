@@ -1,0 +1,17 @@
+{
+  "ROLES_LISTED": "Roles listed",
+  "ROLE_FOUND": "Role found",
+  "ROLE_CREATED": "Role created",
+  "ROLE_UPDATED": "Role updated",
+  "ROLE_DISABLED": "Role disabled",
+  "ROLE_DELETED": "Role deleted",
+  "ROLE_PERMISSIONS_UPDATED": "Permissions updated",
+  "ROLE_NOT_FOUND": "Role not found",
+  "ROLE_ALREADY_EXISTS": "Role already exists",
+  "ROLE_ALREADY_USED": "Role in use",
+  "ROLE_ASSIGN_PERMISSION": "Assigned permission",
+  "ROLE_REMOVE_PERMISSION": "Permission removed",
+  "ROLE_ALREADY_ASSIGN_PERMISSION": "Permission already assigned",
+  "ROLE_ALREADY_REMOVE_PERMISSION": "Permission already removed",
+  "ROLE_OWNER": "No modifications can be made to this role"
+}

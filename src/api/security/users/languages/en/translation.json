@@ -1,0 +1,20 @@
+{
+  "USERS_LISTED": "Listed users",
+  "USER_FOUND": "User found",
+  "USER_CREATED": "User created",
+  "USER_UPDATED": "User updated",
+  "USER_DISABLED": "User disabled",
+  "USER_DELETED": "User deleted",
+  "USER_NOT_FOUND": "User not found",
+  "USER_ALREADY_EXISTS": "User already exists",
+  "USER_DISABLE_YOURSELF": "You cannot disable yourself",
+  "USER_DELETE_YOURSELF": "You cannot delete yourself",
+  "USER_OWNER_EDIT": "Insufficient permissions to modify this user",
+  "USER_OWNER_DELETE": "This user cannot be deleted",
+  "USER_ASSIGN_ROLE": "Role assigned",
+  "USER_REMOVE_ROLE": "Role removed",
+  "USER_ALREADY_ASSIGN_ROLE": "Role already assigned",
+  "USER_ALREADY_REMOVE_ROLE": "Role already removed",
+  "USER_CHANGE_YOURSELF": "You can't change roles yourself",
+  "USER_UNLOCKED": "Unlocked account"
+}

@@ -1,0 +1,18 @@
+{
+  "AUTH_AUTHENTICATED": "Authenticated user",
+  "AUTH_INVALID_CREDENTIALS": "Invalid credentials",
+  "AUTH_INVALID_TOKEN": "Invalid login",
+  "AUTH_OLD_PASSWORD": "This password has already been used before",
+  "AUTH_INSECURE_PASSWORD": "The password provided is too short",
+  "AUTH_ACCOUNT_ALREADY_EXISTS": "Account already exists",
+  "AUTH_ACCOUNT_NOT_FOUND": "Account not found",
+  "AUTH_ACCOUNT_REGISTRED": "Account registered",
+  "AUTH_ACCOUNT_DISABLED": "Disabled account",
+  "AUTH_ACCOUNT_BLOCKED": "Blocked account",
+  "AUTH_ACCOUNT_BLOCKED_DETAILS": "Your account has been blocked, please check your email or perform the account recovery process",
+  "AUTH_ACCOUNT_RECOVERY": "Account Recovery",
+  "AUTH_ACCOUNT_RECOVERED": "Account recovered",
+  "AUTH_OTP_SENT": "OTP code sent",
+  "AUTH_OTP_INVALID_OR_EXPIRED": "Invalid or expired OTP",
+  "AUTH_OTP_VALID": "Valid OTP"
+}

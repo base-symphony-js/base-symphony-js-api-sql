@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@api/*": ["./src/api/*"],
+      "@common": ["./src/common"],
+      "@config": ["./src/config"],
+      "@interfaces": ["./src/interfaces"],
+      "@languages": ["./src/languages"],
+      "@middlewares": ["./src/middlewares"],
+      "@services": ["./src/services"]
+    }
+  }
+}

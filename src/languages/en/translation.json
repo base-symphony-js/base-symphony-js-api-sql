@@ -1,0 +1,5 @@
+{
+  "RES_EXPIRED_TOKEN": "Expired login",
+  "RES_FORBIDDEN": "You do not have permissions to perform this action",
+  "RES_SERVER_ERROR": "Internal server error"
+}

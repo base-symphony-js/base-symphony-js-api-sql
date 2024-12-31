@@ -1,0 +1,5 @@
+{
+  "RES_EXPIRED_TOKEN": "Inicio de sesión expirado",
+  "RES_FORBIDDEN": "No tiene permisos para realizar esta acción",
+  "RES_SERVER_ERROR": "Error interno de servidor"
+}

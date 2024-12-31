@@ -1,0 +1,5 @@
+{
+  "UTILS_CLOUDINARY_GET_SIGNATURE": "Signature obtained",
+  "UTILS_CLOUDINARY_REQUIRED_PARAMETERS": "Required fields: url, signature, timestamp and folder",
+  "UTILS_CLOUDINARY_INVALID_SIGNATURE": "Invalid signature"
+}

@@ -1,0 +1,7 @@
+node_modules
+build
+dist
+dist
+jest.config.ts
+babel.config.js
+__tests__

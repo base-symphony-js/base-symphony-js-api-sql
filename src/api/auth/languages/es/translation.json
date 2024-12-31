@@ -1,0 +1,18 @@
+{
+  "AUTH_AUTHENTICATED": "Usuario autenticado",
+  "AUTH_INVALID_CREDENTIALS": "Credenciales no válidas",
+  "AUTH_INVALID_TOKEN": "Inicio de sesión no válido",
+  "AUTH_OLD_PASSWORD": "Esta contraseña ya ha sido usada anteriormente",
+  "AUTH_INSECURE_PASSWORD": "La contraseña proporcionada es demasiado corta",
+  "AUTH_ACCOUNT_ALREADY_EXISTS": "La cuenta ya existe",
+  "AUTH_ACCOUNT_NOT_FOUND": "Cuenta no encontrada",
+  "AUTH_ACCOUNT_REGISTRED": "Cuenta registrada",
+  "AUTH_ACCOUNT_DISABLED": "Cuenta deshabilitada",
+  "AUTH_ACCOUNT_BLOCKED": "Cuenta bloqueada",
+  "AUTH_ACCOUNT_BLOCKED_DETAILS": "Se ha bloqueado su cuenta, favor revisar su correo electrónico o realice el proceso de recuperación de cuenta",
+  "AUTH_ACCOUNT_RECOVERY": "Recuperación de cuenta",
+  "AUTH_ACCOUNT_RECOVERED": "Cuenta recuperada",
+  "AUTH_OTP_SENT": "Código OTP enviado",
+  "AUTH_OTP_INVALID_OR_EXPIRED": "OTP no válido o expirado",
+  "AUTH_OTP_VALID": "OTP válido"
+}

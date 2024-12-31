@@ -1,0 +1,16 @@
+{
+  "PROFILE_DELETED": "Profile deleted",
+  "PROFILE_FOUND": "Profile found",
+  "PROFILE_UPDATED": "Profile updated",
+  "PROFILE_EMAIL_UPDATED": "Email updated",
+  "PROFILE_PASSWORD_UPDATED": "Password updated",
+  "PROFILE_EMAIL_VERIFICATION": "Email Verification",
+  "PROFILE_EMAIL_VERIFICATION_SENT": "Verification email sent, check your inbox",
+  "PROFILE_NOT_FOUND": "Profile not found",
+  "PROFILE_DISABLED": "Profile disabled",
+  "PROFILE_OWNER_DELETE": "You cannot delete your account using this method, please contact support",
+  "PROFILE_EMAIL_ALREADY_EXISTS": "Email already exists",
+  "PROFILE_INVALID_CREDENTIALS": "Invalid credentilas",
+  "PROFILE_OLD_PASSWORD": "This password has already been used before",
+  "PROFILE_INSECURE_PASSWORD": "The password provided is too short"
+}

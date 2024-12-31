@@ -1,0 +1,20 @@
+{
+  "USERS_LISTED": "Usuarios listados",
+  "USER_FOUND": "Usuario encontrado",
+  "USER_CREATED": "Usuario creado",
+  "USER_UPDATED": "Usuario actualizado",
+  "USER_DISABLED": "Usuario deshabilitado",
+  "USER_DELETED": "Usuario eliminado",
+  "USER_NOT_FOUND": "Usuario no encontrado",
+  "USER_ALREADY_EXISTS": "Usuario ya existe",
+  "USER_DISABLE_YOURSELF": "No puedes deshabilitarte a ti mismo",
+  "USER_DELETE_YOURSELF": "No puedes eliminarte a ti mismo",
+  "USER_OWNER_EDIT": "Permisos insuficientes para modificar este usuario",
+  "USER_OWNER_DELETE": "No se puede eliminar este usuario",
+  "USER_ASSIGN_ROLE": "Rol asignado",
+  "USER_REMOVE_ROLE": "Rol removido",
+  "USER_ALREADY_ASSIGN_ROLE": "Rol ya asignado",
+  "USER_ALREADY_REMOVE_ROLE": "Rol ya removido",
+  "USER_CHANGE_YOURSELF": "No puedes cambiarte de rol a ti mismo",
+  "USER_UNLOCKED": "Cuenta desbloqueada"
+}
