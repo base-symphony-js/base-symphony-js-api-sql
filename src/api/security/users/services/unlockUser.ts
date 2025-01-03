@@ -39,7 +39,7 @@ export const unlockUser = async (
   const isOwnerEditUser = user.UsersOnRoles.some(
     userRole => userRole.Roles.type === 'owner',
   )
-  let isOwnerCurrentUser = currentUser.UsersOnRoles.some(
+  const isOwnerCurrentUser = currentUser.UsersOnRoles.some(
     userRole => userRole.Roles.type === 'owner',
   )
   if (!isOwnerCurrentUser && isOwnerEditUser)

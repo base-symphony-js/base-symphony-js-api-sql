@@ -1,9 +1,9 @@
 import { NestFactory } from '@nestjs/core'
-import { AppModule } from './app.module'
-import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'
 import { Logger, ValidationPipe } from '@nestjs/common'
+import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger'
 import { PORT, SERVER_URL_NAME } from '@common'
 import morgan from 'morgan'
+import { AppModule } from './app.module'
 
 async function bootstrap() {
   const logger = new Logger('Main')
