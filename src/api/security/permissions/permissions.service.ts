@@ -22,24 +22,21 @@ export class PermissionsService {
     // Transform permissions into the required structure
     const permissionsWithChildren = await Promise.all(
       permissions.map(async permission => {
+        delete permission.other_Permissions
         return {
-          permission: permission.name,
+          ...permission,
           children: await this.getChildren(permission.id), // Get children recursively
         }
       }),
     )
 
     // Get all actions from the database
-    const actions = await this.prisma.actions.findMany({
-      select: {
-        name: true, // Only select the name of the action
-      },
-    })
+    const actions = await this.prisma.actions.findMany()
 
     // Return the structured response
     return {
       permissions: permissionsWithChildren,
-      actions: actions.map(action => action.name), // Map actions to a simple array of names
+      actions,
     }
   }
 
@@ -61,8 +58,9 @@ export class PermissionsService {
     // If there are children, process them recursively
     return Promise.all(
       children.map(async child => {
+        delete child.other_Permissions
         return {
-          permission: child.name,
+          ...child,
           children: await this.getChildren(child.id), // Recursively call to get sub-children
         }
       }),

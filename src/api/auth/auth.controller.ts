@@ -45,12 +45,13 @@ export class AuthController {
       delete user.incorrectPassword
       delete user.refreshToken
 
-      // Get profile
-      const roles = await this.authService.getRoles(user.id)
+      // Get roles and permissions
+      const { roles, permissions } =
+        await this.authService.getRolesAndPermissions(user.id)
 
       // Response
       dataResponse.message = t.AUTH_AUTHENTICATED
-      dataResponse.data = { user, tokens, roles }
+      dataResponse.data = { user, tokens, roles, permissions }
     } catch (error) {
       dataResponse = getErrorResponse(t, error)
     }
@@ -77,12 +78,13 @@ export class AuthController {
       // Generate tokens
       const tokens = await this.authService.generateTokens(user.id)
 
-      // Get profile
-      const roles = await this.authService.getRoles(user.id)
+      // Get roles and permissions
+      const { roles, permissions } =
+        await this.authService.getRolesAndPermissions(user.id)
 
       // Response
       dataResponse.message = t.AUTH_AUTHENTICATED
-      dataResponse.data = { user, tokens, roles }
+      dataResponse.data = { user, tokens, roles, permissions }
     } catch (error) {
       dataResponse = getErrorResponse(t, error)
     }

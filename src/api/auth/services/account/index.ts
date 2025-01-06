@@ -1,5 +1,5 @@
 export * from './createUser'
-export * from './getRoles'
+export * from './getRolesAndPermissions'
 export * from './resetPassword'
 export * from './verifyGoogleIdToken'
 export * from './validateEmailAndPass'

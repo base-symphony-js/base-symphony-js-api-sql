@@ -50,7 +50,7 @@ This project is licensed under the [MIT License](LICENSE).
 9. Run `yarn generate-credentials:dev` to load the **development** environment variables.
 10. Run `yarn generate-credentials:qa` to load the **qa environment** variables.
 11. Run `yarn generate-credentials:prod` to load the **production environment** variables.
-12. Run `yarn start:dev` to run the project in development mode.
+12. Run `yarn dev` to run the project in development mode.
 13. Run `yarn test` to run the tests.
 14. Run `yarn build` to compile the project.
 15. Run `yarn start` to run the project in production mode.

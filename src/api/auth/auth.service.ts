@@ -16,8 +16,8 @@ export class AuthService {
     return authService.createUser(this.prisma, createUserDto)
   }
 
-  getRoles(userId: number) {
-    return authService.getRoles(this.prisma, userId)
+  getRolesAndPermissions(userId: number) {
+    return authService.getRolesAndPermissions(this.prisma, userId)
   }
 
   resetPassword(email: string, newPassword: string) {

@@ -1,4 +1,4 @@
-# Copyright (c) 2024 Luis Solano. All rights reserved.
+# Copyright (c) 2025 Luis Solano. All rights reserved.
 # Licensed under the MIT License. See the LICENSE file in the root of this repository for more information.
 if [ "$1" == "local" ]
 then

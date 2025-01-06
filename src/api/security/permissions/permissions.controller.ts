@@ -20,7 +20,7 @@ export class PermissionsController {
 
       // Response
       dataResponse.message = t.PERMISSIONS_LISTED
-      dataResponse.data = { permissions }
+      dataResponse.data = { ...permissions }
     } catch (error) {
       dataResponse = getErrorResponse(t, error)
     }

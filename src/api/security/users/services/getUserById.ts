@@ -40,10 +40,17 @@ export const getUserById = async (prisma: PrismaService, userId: number) => {
       state: true,
     },
   })
-  delete user.UsersOnRoles
+  const transformedUser = {
+    ...user,
+    createdBy: user.Users_Users_createdByIdToUsers,
+    updatedBy: user.Users_Users_updatedByIdToUsers,
+    Users_Users_createdByIdToUsers: undefined,
+    Users_Users_updatedByIdToUsers: undefined,
+    UsersOnRoles: undefined,
+  }
 
   return {
-    user: user,
+    user: transformedUser,
     roles: {
       assignedRoles,
       availableRoles,
